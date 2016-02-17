@@ -6,6 +6,7 @@
 	<property name="virtual.path" location="${basedir}/war" />
 	
 	<target name="war_set">
+		<mkdir dir="${basedir}/build"/>
 		<mkdir dir="${virtual.path}"/>
 		<copy todir="${virtual.path}">
 			<fileset dir="${content.path}">
