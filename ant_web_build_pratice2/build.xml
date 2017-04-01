@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="ant_web_build_practice2" default="war_set" basedir=".">
+<project name="My Project" default="war_set" basedir=".">
+	<property name="app.name"    value="Helloworld"/>
 	<property name="content.path" location="${basedir}/WebContent" />
 	<property name="build.path" location="${basedir}/build" />
 	<property name="server.path" location="C:/dev/apache-tomcat-7.0.67/webapps" />
